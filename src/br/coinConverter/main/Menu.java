@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public class Menu {
     private final Scanner reader = new Scanner(System.in);
 
-    private void showOptions() {
+    private void showOptions(){
         System.out.println("""
                 -------------------------------------
                            MENU DE OPÇÕES
@@ -26,7 +26,7 @@ public class Menu {
                 -------------------------------------""");
     }
 
-    public String getInput() {
+    public String getInput(){
         return reader.nextLine();
     }
 
@@ -52,7 +52,7 @@ public class Menu {
         try {
             ApiResponse response = connection.connect(base, target);
 
-            if (response.result().equals("success")) {
+            if (response.result().equals("success")){
                 Coin coin = new Coin(response);
                 System.out.println(coin.getLastUpdated());
                 System.out.println(" --> Digite qualquer valor negativo para sair <-- \n");
