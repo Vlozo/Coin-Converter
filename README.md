@@ -1,9 +1,8 @@
 ﻿#  Coin Converter
-
 ## Descrição
-![Preview-Coin-Converter](preview.png)
-
 Este projeto foi desenvolvido para o Desafio do Curso de Java da Alura como parte do programa ONE, a proposta consiste na criação de um programa que execute no terminal e consiga obter taxas de câmbio dinamicamente por meio da API ExchangeRate, e então realize conversões entre diferentes moedas.
+
+![Badge-Conversor](Badge-Conversor.png)
 
 ## Tecnologias utilizadas
 - Java 17
@@ -18,5 +17,6 @@ Ao executar o programa ele vai pedir que você insira a chave sem necessidade de
 ```Java
 ApiConnection connection = new ApiConnection("YOUR-API-KEY");
 ```
-
+## Exemplo
+![Preview-Coin-Converter](preview.png)
 
